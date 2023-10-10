@@ -1,0 +1,116 @@
+.error-message {
+  font-weight: bold;
+  color: red;
+}
+
+.form {
+  max-width: 40rem;
+  margin: 2rem auto;
+}
+
+.form input[type="email"], input[type="password"]{
+  display: block;
+  width: 100%;
+}
+
+.form input,
+.form textarea {
+  font: inherit;
+  padding: 0.25rem;
+}
+
+.actions {
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.actions button {
+  font: inherit;
+  cursor: pointer;
+  padding: 0.5rem 1.5rem;
+  border-radius: 4px;
+  background-color: var(--color-gray-300);
+  color: var(--color-gray-800);
+  border: none;
+}
+
+.actions a {
+  text-decoration: none;
+  background-color: transparent;
+  color: var(--color-gray-300);
+}
+
+.actions button:hover {
+  background-color: var(--color-primary-300);
+}
+
+.actions a:hover {
+  background-color: var(--color-gray-800);
+}
+
+.header {
+  text-align: start;
+  color: var(--color-primary);
+}
+
+.form-control {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  border: none;
+  margin-bottom: 35px;
+}
+
+.form-control input::placeholder {
+  color: #ababab;
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
+.form-control label {
+  color: var(--color-primary);
+  font-weight: 500;
+  margin-top: 20px;
+  margin-bottom: 0.3rem;
+  float: left;
+  padding-bottom: 5px;
+  font-size: 1rem;
+}
+
+.form-control input {
+  font: inherit;
+  padding: 1rem;
+  border-radius: 10px;
+  border: 1px solid #7eb693;
+  max-width: 100%;
+  background-color: transparent;
+  color: var(--color-primary);
+}
+
+.form-control input:focus {
+  outline: none;
+  border-color: #240370;
+}
+
+input[type="checkbox"] {
+  padding: 9px;
+  margin: 0;
+  cursor: pointer;
+}
+
+.form-actions button {
+  width: 100%;
+  background-color: #274c5b;
+}
+
+.form-actions button:hover {
+  background-color: #274c5be6;
+  border-color: #274c5be6;
+}
+
+.action-button {
+  color: #FF7A00;
+  font-weight: 700;
+}

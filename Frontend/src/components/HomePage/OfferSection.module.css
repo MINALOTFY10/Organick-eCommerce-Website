@@ -1,0 +1,48 @@
+.offer-section {
+  background-color: #274c5b;
+}
+
+.offer-word {
+  margin-top: 80px;
+  width: 6vw;
+}
+
+.offer-section h1 {
+  font-size: 3vw;
+}
+
+.product-item {
+  border-radius: 25px;
+  border: none;
+  background-color: var(--color-fifth);
+}
+
+.product-tag {
+  background-color: var(--color-primary);
+}
+.product-title {
+  color: var(--color-primary);
+  font-size: 1.1rem;
+  font-weight: 500;
+  border-bottom: 1px solid #d6d0d059;
+}
+
+.price {
+  color: var(--color-primary);
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.rating {
+  color: #ffa858;
+}
+
+.rating {
+  color: #ffa858;
+}
+
+@media (max-width: 585px) {
+  .offer-section h1 {
+    font-size: 4vw;
+  }
+}

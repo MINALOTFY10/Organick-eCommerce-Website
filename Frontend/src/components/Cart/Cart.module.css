@@ -1,0 +1,43 @@
+.cart {
+  max-width: 30rem;
+  color: var(--color-primary);
+
+  min-width: 40rem;
+  max-height: 35rem;
+  overflow: auto;
+}
+
+.cart h2 {
+  font-size: 1.8rem;
+}
+
+.cart p {
+  font-size: 1.3rem;
+  margin: auto 0;
+}
+
+.cart button {
+  height: 40px;
+  margin: auto 0;
+}
+
+.cart ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.cart-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.exit-button {
+  padding: 0;
+  padding: 0px 25px 0 25px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}

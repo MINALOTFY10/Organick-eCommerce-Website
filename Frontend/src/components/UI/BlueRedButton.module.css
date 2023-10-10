@@ -1,0 +1,57 @@
+.button {
+  font: inherit;
+  width: 9rem;
+  padding: 0.8rem 0rem;
+  border: 1px solid #274c5b;
+  border-radius: 8px;
+  color: white;
+  font-weight: 700;
+  background: #274c5b;
+  cursor: pointer;
+  height: fit-content;
+  font-size: 0.9rem;
+  border: none;
+  display: flex;
+  justify-content: center;
+}
+
+.button p {
+  margin: 0;
+  padding: 0;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button:hover,
+.button:active {
+  background: #274c5be2;
+  border-color: #274c5be2;
+}
+
+.next_icon {
+  margin: auto 0;
+  margin-left: 8px;
+}
+
+@media (max-width: 922px) {
+  .button {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 655px) {
+  .button {
+    font-size: 0.9rem;
+    font-weight: 400;
+    padding: 0.4rem 0.6rem;
+  }
+}
+
+@media (max-width: 440px) {
+  .button {
+    font-size: 0.9rem;
+    padding: 0.6rem 0.6rem;
+  }
+}

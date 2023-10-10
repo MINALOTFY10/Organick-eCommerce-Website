@@ -1,0 +1,68 @@
+.card {
+  margin: 1rem auto;
+  border-radius: 35px;
+  padding: 3rem;
+  display: flex;
+  justify-content: space-between;
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  -ms-border-radius: 35px;
+  -o-border-radius: 35px;
+}
+
+.newsletter-heading {
+  font-size: 240%;
+}
+
+.subsribe-section input {
+  height: fit-content;
+  background-color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 12px;
+  margin-top: 10px;
+  color: var(--color-primary);
+}
+
+@media (max-width: 992px) {
+  .subsribe-section {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .subsribe-section input {
+    margin-left: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .card {
+    display: flex;
+    flex-direction: column;
+  }
+  .newsletter-heading {
+    text-align: center;
+  }
+}
+
+@media (max-width: 556px) {
+    .newsletter-heading {
+      font-size: 200%;
+    }
+    .subsribe-section input {
+    
+      padding: 8px;
+   
+    }
+  }
+
+  @media (max-width: 400px) {
+    .newsletter-heading {
+      font-size: 150%;
+    }
+    .subsribe-section input {
+    
+      padding: 5px;
+   
+    }
+  }

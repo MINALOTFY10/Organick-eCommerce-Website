@@ -1,0 +1,38 @@
+.heading {
+    padding: 0;
+}
+
+.heading h2 {
+    margin: 0;
+    font-weight: 700;
+    color: var(--color-primary);
+}
+
+.content p {
+    font-size: 0.8rem;
+    color: var(--color-seventh);
+}
+
+.first-text {
+    text-align: end;
+    margin-top: 15px;
+}
+
+.service-image {
+    width: 55px;
+}
+
+@media (max-width: 1200px) {
+    .content {
+        text-align: center;
+    }
+
+    .image-content {
+        width: 50%;
+    }
+
+    .first-text {
+        text-align: center;
+        margin-top: 45px;
+    }
+}

@@ -1,0 +1,30 @@
+.button {
+  background-color: transparent;
+  border-color: #E0E0E0;
+  color: var(--color-primary);
+  border-radius: 25px;
+  padding: 0.4rem 0.7rem 0.4rem 0.5rem;
+  margin-left: 15px;
+}
+
+.button:hover,
+.button:active {
+  color: var(--color-primary);
+  background-color: #eff6f1;
+  border-color: #eff6f1;
+}
+
+.button span {
+  margin: 0 0.1rem;
+}
+
+.badge {
+  border-radius: 30px;
+  color: var(--color-primary);
+}
+
+.icon {
+  width: 1.1rem;
+  height: 1.1rem;
+  
+}

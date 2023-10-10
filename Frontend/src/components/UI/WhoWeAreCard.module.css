@@ -1,0 +1,25 @@
+.card {
+  margin: 1rem auto;
+  border-radius: 20px;
+  background-color: white;
+  padding: 3rem;
+  width: 90%;
+  max-width: 40rem;
+  position: absolute;
+  left: -70px;
+
+}
+
+@media (max-width: 1280px) {
+  .card {
+    margin: 1rem auto;
+    border-radius: 20px;
+    background-color: white;
+    padding: 3rem;
+    width: 90%;
+    max-width: 40rem;
+    position: static;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  
+  }
+}

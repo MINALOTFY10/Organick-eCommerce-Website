@@ -1,0 +1,61 @@
+.item {
+  margin: 1rem 0;
+  background-color: #eff6f1;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.item h3 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.75rem;
+}
+
+.item header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.quantity span {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.price {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.itemprice {
+  font-weight: normal;
+  font-size: 1rem;
+  font-style: italic;
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0.5rem 0;
+}
+
+.actions button {
+  background-color: transparent;
+  border: 1px solid var(--color-primary);
+  margin-left: 0.5rem;
+  padding: 0.15rem 1rem;
+  color: var(--color-primary);
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.actions button:hover,
+.actions button:active {
+  background-color: #4b4b4b;
+  color: white;
+}

@@ -1,0 +1,35 @@
+a {
+  text-decoration: none;
+}
+
+.Banner_container {
+  position: relative;
+}
+
+.banner_slogan {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+}
+
+.natural_food_img {
+  width: 12vw;
+}
+
+.next_icon {
+  margin: 0;
+  margin-left: 5px;
+}
+
+.banner-header {
+  padding: 0;
+  margin: 0;
+  color: var(--color-primary);
+  font-weight: 700;
+  font-size: 3.3vw;
+}
+
+.banner_slogan h1 {
+  text-align: start;
+}

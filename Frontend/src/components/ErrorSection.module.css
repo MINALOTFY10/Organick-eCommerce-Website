@@ -1,0 +1,56 @@
+.error-page {
+  background-image: url("../assets/ErrorBackground.png"); /* Set the background image path */
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.content {
+  width: 50vw;
+  padding-top: 15vh;
+  margin-left: auto;
+  text-align: center;
+}
+
+.status {
+  color: #8fa8a8;
+  font-size: 14rem;
+  padding: 0;
+  margin: 0;
+}
+
+.title {
+  color: #8fa8a8;
+  font-size: 3rem;
+  padding: 0;
+  margin: 0;
+}
+
+.message {
+  color: #525c60;
+  margin-top: 10px;
+}
+
+@media (max-width: 1190px) {
+  .error-page {
+    background-image: url("../assets/SmallErrorBackground.png"); /* Set the background image path */
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+  .content {
+    width: 80vw;
+    padding-top: 15vh;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+
+@media (max-width: 487px) {
+    .status {
+        font-size: 9rem;
+      }
+      .title {
+        font-size: 1.8rem;
+      }
+}

@@ -1,0 +1,46 @@
+.button {
+  font: inherit;
+  padding: 0.7rem 0.8rem;
+  border: 1px solid #efd372;
+  border-radius: 8px;
+  color: var(--color-primary);
+  font-weight: 700;
+  background: #efd372;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-right: 0px;
+  display: block;
+  font-size: 1.1vw;
+  height: fit-content;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button:hover,
+.button:active {
+  background: #f1d982;
+  border-color: #f1d982;
+}
+
+@media (max-width: 787px) {
+  .button { 
+    font-size: 1.6vw; 
+    padding: 0.5rem 0.6rem;
+  }
+}
+
+@media (max-width: 440px) {
+  .button {
+    font-size: 1.8vw; 
+    padding: 0.2rem 0.3rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .button {
+    font-size: 2.3vw; 
+    padding: 0.5rem 0.6rem;
+  }
+}

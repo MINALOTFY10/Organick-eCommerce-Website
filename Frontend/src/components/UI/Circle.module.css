@@ -1,0 +1,41 @@
+/* Circle Styles */
+.circle {
+  width: 150px; /* Adjust the size as needed */
+  height: 150px; /* Adjust the size as needed */
+  border: 2px solid #7eb693;
+  background-color: #f1f1f1;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px; /* Adjust the margin as needed */
+  padding: 20px; /* Add padding to create white space */
+}
+
+@media (max-width: 450px) {
+  .circle {
+    margin-right: 0px;
+  }
+}
+/* Circle Content Styles */
+.circle-content {
+  text-align: center;
+  color: #525c60;
+}
+
+/* Heading Styles */
+.circle-heading {
+  font-size: 28px; /* Adjust the font size as needed */
+  font-weight: bold;
+  padding: 0;
+  margin: 0;
+}
+
+/* Paragraph Styles */
+.circle-text {
+  font-size: 13px; /* Adjust the font size as needed */
+  font-weight: 500;
+  padding: 0;
+  margin: 0;
+}

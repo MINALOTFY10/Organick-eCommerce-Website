@@ -1,0 +1,56 @@
+.testimonial-counter {
+  background-size: cover;
+}
+
+.testimonial {
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 70px;
+}
+
+.testimonial-heading {
+  font-size: 3.5vw;
+}
+
+.testimonial-img {
+  margin-top: 120px;
+}
+
+.rating {
+  color: #ffa858;
+  text-decoration: none;
+}
+
+.review-text {
+  width: 43%;
+  text-align: center;
+  color: var(--color-primary);
+}
+
+.name {
+  color: var(--color-primary);
+}
+
+.job {
+  color: var(--color-seventh);
+  font-size: 0.9rem;
+}
+
+.counter {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 30px;
+}
+
+@media (max-width: 450px) {
+  .counter {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media (max-width: 1280px) {
+  .testimonial-counter {
+    background-size: contain;
+  }
+}

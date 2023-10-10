@@ -1,0 +1,53 @@
+.Banner_container {
+  position: relative;
+}
+.Banner_container img{
+  max-height: 45vh;
+  min-height: 20vh;
+  min-width: 100%;
+}
+
+.banner_slogan {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  padding: 0;
+  margin: 0;
+  color: var(--color-primary);
+  font-weight: 700;
+  text-align: center;
+  font-size: 5vw;
+
+}
+/* 
+@media (max-width: 1145px) {
+  h1 {
+    font-weight: 700;
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 922px) {
+  h1 {
+    font-weight: 700;
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 655px) {
+  h1 {
+    font-weight: 700;
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 440px) {
+  h1 {
+    font-weight: 700;
+    font-size: 0.9rem;
+  }
+} */
