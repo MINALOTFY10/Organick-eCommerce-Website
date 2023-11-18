@@ -5,7 +5,7 @@
 
 Welcome to the Organick E-commerce Website! This project is a comprehensive e-commerce web application built using React and Redux, offering a seamless online shopping experience.
 
-[Visit the Live Website](https://organick-e-commerce-website-1pp3.vercel.app/contact)
+[Visit the Live Website](https://organick-e-commerce-website-1pp3.vercel.app/)
 
 ## Table of Contents
 - [Introduction](#introduction)
