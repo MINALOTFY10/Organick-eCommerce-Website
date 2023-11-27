@@ -17,7 +17,7 @@ Welcome to the Organick E-commerce Website! This project is a comprehensive e-co
 The Organick E-commerce Website is designed to provide users with a user-friendly and feature-rich platform for online shopping. It is built using React and Redux, making it highly responsive and interactive. Whether you're a shopper, a developer, or simply curious, this project has something for everyone.
 
 <div align="center">
-  <img src="./Screenshot 2023-10-12 202133.png" alt="Application Screenshot" height="400">
+  <img src="https://raw.githubusercontent.com/MINALOTFY10/Organick-eCommerce-Website/master/App%20Screenshots/one.png" alt="Application Screenshot" height="400">
 </div>
 
 ## Features
