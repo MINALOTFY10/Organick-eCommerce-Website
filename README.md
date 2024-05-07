@@ -73,7 +73,3 @@ $ npm start
 Important: If you're using the code for a module that requires API keys or a backend, make sure to use your own backend URLs and API keys as specified in the project. The provided API keys are for demonstration purposes.
 
 This README provides a high-level overview of the Organick E-commerce Website project. For more detailed code and functionality, explore the project files and documentation.
-
-Feel free to customize and enhance this e-commerce website to suit your specific needs!
-
-🚀 Happy shopping!
